@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Mario Sanz Sancho</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        /* Custom print styles to ensure A4 format prints perfectly */
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        @media print {
+            body {
+                background-color: white;
+            }
+            .cv-container {
+                box-shadow: none !important;
+                margin: 0 !important;
+                width: 100% !important;
+                height: 100% !important;
+                max-width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body class="flex justify-center py-10 px-4 md:px-0 text-gray-800">
+
+    <!-- Main CV Wrapper -->
+    <div class="cv-container w-full max-w-[850px] bg-white shadow-2xl flex flex-col sm:flex-row relative overflow-hidden" style="min-height: 1120px;">
+        
+        <!-- ================= LEFT COLUMN (SIDEBAR) ================= -->
+        <div class="w-full sm:w-[32%] flex flex-col relative z-10 bg-white">
+            
+            <!-- Top Header Shape -->
+            <div class="bg-[#426182] pt-12 pb-14 text-center relative">
+                <h1 class="text-white font-bold text-[22px] px-4 leading-tight tracking-wide z-10 relative">Mario Sanz Sancho</h1>
+                <!-- Curve Shape -->
+                <svg class="absolute bottom-0 left-0 w-full translate-y-[98%] text-[#426182]" viewBox="0 0 100 18" preserveAspectRatio="none" fill="currentColor">
+                    <path d="M0,0 Q50,18 100,0 Z" />
+                </svg>
+            </div>
+
+            <!-- Profile Image -->
+            <div class="flex justify-center -mt-10 relative z-20 mb-8">
+                <!-- Replace src with your image URL -->
+                <img src="https://placehold.co/400x400/426182/FFFFFF?text=Foto+de+Perfil" alt="Mario Sanz Sancho" class="w-[140px] h-[140px] rounded-full border-4 border-white shadow-sm object-cover bg-white">
+            </div>
+
+            <!-- Sidebar Content -->
+            <div class="px-7 flex-1 text-[#333]">
+                
+                <!-- Contact Section -->
+                <div class="mb-7">
+                    <h2 class="text-[#5d82a6] text-xl font-light mb-1">Contact</h2>
+                    <hr class="border-gray-300 mb-4">
+                    <div class="space-y-4 text-[12px] leading-tight">
+                        <div class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#426182] shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            <span class="break-all pt-0.5">mariosanzsancho@gmail.com</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#426182] shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                            <span class="pt-0.5">Zaragoza, Aragon, Spain<br>50012 Zaragoza</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#426182] shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                            <span class="break-all pt-0.5">linkedin.com/in</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="mb-7">
+                    <h2 class="text-[#5d82a6] text-xl font-light mb-1">Skills</h2>
+                    <hr class="border-gray-300 mb-4">
+                    <div class="space-y-3 text-[12px] font-medium text-gray-800">
+                        <p>Team work</p>
+                        <p>Game Design</p>
+                        <p>Leadership</p>
+                        <p>Unity</p>
+                        <p>C# / C++</p>
+                        <p>Software Engineer</p>
+                        <p>Mobile games Dev</p>
+                        <p>QA</p>
+                    </div>
+                </div>
+
+                <!-- Languages Section -->
+                <div class="mb-7">
+                    <h2 class="text-[#5d82a6] text-xl font-light mb-1">Languages</h2>
+                    <hr class="border-gray-300 mb-4">
+                    <div class="space-y-3 text-[12px] font-medium text-gray-800">
+                        <div class="flex justify-between items-center">
+                            <span>Spanish</span>
+                            <div class="flex gap-1">
+                                <div class="w-2.5 h-2.5 rounded-full bg-[#426182]"></div>
+                                <div class="w-2.5 h-2.5 rounded-full bg-[#426182]"></div>
+                                <div class="w-2.5 h-2.5 rounded-full bg-[#426182]"></div>
+                                <div class="w-2.5 h-2.5 rounded-full bg-[#426182]"></div>
+                                <div class="w-2.5 h-2.5 rounded-full bg-[#426182]"></div>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span>English</span>
+                            <div class="flex gap-1">
+                                <div class="w-2.5 h-2.5 rounded-full bg-[#426182]"></div>
+                                <div class="w-2.5 h-2.5 rounded-full bg-[#426182]"></div>
+                                <div class="w-2.5 h-2.5 rounded-full bg-[#426182]"></div>
+                                <div class="w-2.5 h-2.5 rounded-full bg-[#426182]"></div>
+                                <div class="w-2.5 h-2.5 rounded-full bg-[#426182]"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hobbies Section -->
+                <div class="mb-8">
+                    <h2 class="text-[#5d82a6] text-xl font-light mb-1">Hobbies</h2>
+                    <hr class="border-gray-300 mb-4">
+                    <div class="space-y-3 text-[12px] font-medium text-gray-800">
+                        <div class="flex items-center gap-2">
+                            <div class="w-2 h-2 bg-[#5d82a6]"></div>
+                            <span>Climbing</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <div class="w-2 h-2 bg-[#5d82a6]"></div>
+                            <span>Gym</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <div class="w-2 h-2 bg-[#5d82a6]"></div>
+                            <span>Nutrición</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <div class="w-2 h-2 bg-[#5d82a6]"></div>
+                            <span>Selfcare</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer Shape -->
+            <div class="mt-auto w-full relative pt-10">
+                <svg class="w-full text-[#426182] translate-y-[2px]" viewBox="0 0 100 20" preserveAspectRatio="none" fill="currentColor">
+                    <path d="M0,20 Q50,0 100,20 Z" />
+                </svg>
+                <div class="bg-[#426182] h-6 w-full"></div>
+            </div>
+        </div>
+
+        <!-- ================= RIGHT COLUMN (MAIN CONTENT) ================= -->
+        <div class="w-full sm:w-[68%] p-8 sm:p-10 pt-12 flex flex-col text-[#333]">
+            
+            <!-- Profile -->
+            <div class="mb-7">
+                <h2 class="text-[#5d82a6] text-[22px] font-light mb-1">Profile</h2>
+                <hr class="border-gray-200 mb-3">
+                <p class="text-[12px] leading-[1.6] text-justify text-gray-800">
+                    Game Designer & Developer with 1-2 years of technical experience in Unity (C#). As the founder of my own indie studio, I have led the full end-to-end lifecycle of PC and mobile games, managing production, multidisciplinary teams, and showcasing projects at major industry trade shows. I have a proven track record of market success after independently designing, developing, and publishing a title with over 1 million downloads and a 4.6 rating on the Play Store. My profile bridges creative vision with extreme technical rigor, fueled by an unwavering discipline rooted in health and sports values I bring to my work to drive optimization, continuous improvement, and collective project success.
+                </p>
+            </div>
+
+            <!-- Education -->
+            <div class="mb-7">
+                <h2 class="text-[#5d82a6] text-[22px] font-light mb-1">Education</h2>
+                <hr class="border-gray-200 mb-4">
+                <div class="space-y-4">
+                    <!-- Item 1 -->
+                    <div>
+                        <div class="flex flex-col sm:flex-row sm:justify-between text-[13px] font-semibold mb-0.5">
+                            <span>Diseño y Desarrollo de Videojuegos + Ingeniería Informática</span>
+                            <span class="text-[11px] font-normal text-gray-800 mt-1 sm:mt-0">sep 2021 - jun 2026</span>
+                        </div>
+                        <div class="text-[12px] text-[#426182]">Universidad San Jorge</div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div>
+                        <div class="flex flex-col sm:flex-row sm:justify-between text-[13px] font-semibold mb-0.5">
+                            <span>Study Abroad Year</span>
+                            <span class="text-[11px] font-normal text-gray-800 mt-1 sm:mt-0">jul 2019 - may 2020</span>
+                        </div>
+                        <div class="text-[12px] text-[#426182]">Ironwood High School</div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div>
+                        <div class="flex flex-col sm:flex-row sm:justify-between text-[13px] font-semibold mb-0.5">
+                            <span>Bachillerato, Científico</span>
+                            <span class="text-[11px] font-normal text-gray-800 mt-1 sm:mt-0">sep 2019 - jun 2021</span>
+                        </div>
+                        <div class="text-[12px] text-[#426182]">IES Miguel Catalán</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Experience -->
+            <div class="mb-2 flex-1">
+                <h2 class="text-[#5d82a6] text-[22px] font-light mb-1">Work Experience</h2>
+                <hr class="border-gray-200 mb-4">
+                <div class="space-y-6">
+                    <!-- Job 1 -->
+                    <div>
+                        <div class="flex flex-col sm:flex-row sm:justify-between text-[13px] font-semibold mb-0.5">
+                            <span>Game Designer & Developer</span>
+                            <span class="text-[11px] font-normal text-gray-800 mt-1 sm:mt-0">oct 2022 - presente</span>
+                        </div>
+                        <div class="text-[12px] text-[#426182] mb-1.5">Exodus Studios, Zaragoza</div>
+                        <ul class="list-disc ml-5 text-[12px] text-gray-800 leading-[1.5] space-y-1">
+                            <li>Co-founded the studio and led the technical and creative development of the indie title <span class="italic">Exilium</span>, programming core mechanics and handling game design.</li>
+                            <li>Managed overall production and led multidisciplinary teams, successfully navigating internal challenges and fostering collaborative environments.</li>
+                            <li>Acted as the studio's spokesperson at major industry events like IndieDev Day, managing press interviews and media outreach.</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Job 2 -->
+                    <div>
+                        <div class="flex flex-col sm:flex-row sm:justify-between text-[13px] font-semibold mb-0.5">
+                            <span>Mobile Game Developer & Designer</span>
+                            <span class="text-[11px] font-normal text-gray-800 mt-1 sm:mt-0">may 2023 - jul 2024</span>
+                        </div>
+                        <div class="text-[12px] text-[#426182] mb-1.5">Mineblock Studios, Barcelona</div>
+                        <ul class="list-disc ml-5 text-[12px] text-gray-800 leading-[1.5] space-y-1">
+                            <li>Managed the full end-to-end product lifecycle of the mobile game <span class="italic">Mineblock</span> as the sole developer and designer, collaborating with a specialized artist.</li>
+                            <li>Handled all programming, game design, technical maintenance, updates, and publishing on the Google Play Store.</li>
+                            <li>Optimized ad monetization and revenue streams as a data analyst, driving the game to achieve over 1 million downloads and a 4.6/5 rating.</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Job 3 -->
+                    <div>
+                        <div class="flex flex-col sm:flex-row sm:justify-between text-[13px] font-semibold mb-0.5">
+                            <span>Game Programmer & Level Designer</span>
+                            <span class="text-[11px] font-normal text-gray-800 mt-1 sm:mt-0">nov 2025 - feb 2026</span>
+                        </div>
+                        <div class="text-[12px] text-[#426182] mb-1.5">Kraken Empire, Zaragoza, Aragón, España</div>
+                        <ul class="list-disc ml-5 text-[12px] text-gray-800 leading-[1.5] space-y-1">
+                            <li>Contributed to the development of the <span class="italic">Toy Tactics</span> sequel using Unity and C#, engineering new emergent gameplay systems and interactive mechanics from scratch.</li>
+                            <li>Bridged technical and design continuity by porting legacy gameplay elements and adapting original levels to the new mechanics.</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Job 4 -->
+                    <div>
+                        <div class="flex flex-col sm:flex-row sm:justify-between text-[13px] font-semibold mb-0.5">
+                            <span>Administrative Support Specialist</span>
+                            <span class="text-[11px] font-normal text-gray-800 mt-1 sm:mt-0">jul 2021 - presente</span>
+                        </div>
+                        <div class="text-[12px] text-[#426182] mb-1.5">ALFIL SOLUCIONES, SL, Zaragoza</div>
+                        <ul class="list-disc ml-5 text-[12px] text-gray-800 leading-[1.5] space-y-1">
+                            <li>Provided administrative management and citizen support within the educational sector across 13 operational campaigns.</li>
+                            <li>Managed sensitive data and complex paperwork, assisting with school enrollments, scholarship processing, and distance learning eligibility.</li>
+                            <li>Strengthened teamwork and communication skills by handling high-stakes inquiries in a fast-paced environment.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
